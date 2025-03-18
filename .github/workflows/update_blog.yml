@@ -4,7 +4,7 @@ name: Update Blog Posts
 on:
   push:
       branches:
-        - jihoon
+        - main
   schedule:
  
     - cron: '0 0 * * *'  # 매일 자정에 실행, UTC 협정 세계시 기준 (한국 시간 기준 오전 9시)
